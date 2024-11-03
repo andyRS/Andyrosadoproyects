@@ -1,1362 +1,254 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Andy Rosado Portfolio</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portafolio Andy Rosado</title>
+
+    <!--Inicio box icons-->
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      type="text/css"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <!--Fin box icons-->
+
+    <!--Inicio estilos CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Fin estilos CSS-->
+
+    <!--Inicio Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--FinScroll reveal-->
+
+    <!--Inicio Typecryspt Type JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--Fin Typecryspt Type JS-->
+
+    <!--Inicio Scripts de JS-->
+    <script src="./js/main.js"></script>
+    <!--Fin Scripts de JS-->
   </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          >MIS PROYECTOS WEB</a
-        >
-        <button
-          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#portfolio"
-                >Portafolio</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#about"
-                >Acerca de</a
-              >
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#contact"
-                >Contacto</a
-              >
-            </li>
-          </ul>
+  <body>
+    <!--Inicio del Header-->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#about">Sobre mi</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </header>
+    <!--Fin del Header-->
+
+    <!--Inicio seccion del home-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hola, Mi nombre es</h3>
+        <h1>Andy Rosado</h1>
+        <h3>Y soy un <span class="multiple-text"></span></h3>
+        <p>
+          Soy un apasionado por el desarrollo web, y puedo adaptarme para
+          desarrollar tu proyecto web. <br/> 
+          Mi objetivo es poder trasladar tu idea de
+          negocio a una realidad.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Descargar CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="image/home.png" alt="Foto Andy" title="Andy Rosado" />
+      </div>
+    </section>
+    <!--Fin seccion del home-->
+
+    <!--Inicio seccion sobre mi-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/about.png" alt="sobre mi" title="Andy" Rosado />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>Mi</span></h2>
+        <h3>Desarrollador Frontend</h3>
+        <p>
+          Soy un joven emprendedor, Estudiante de término de Ingeniería de
+          Sistemas Computacionales, que se encontró con la oportunidad de
+          conocer el mundo del desarrollo web. Tambien soy SEO y trader y me
+          encata ayudar a desarrollar proyectos que cambien y ayuden a plasmar
+          ideas en realidades.
+        </p>
+        <a href="#" class="btn">Leer mas</a>
+      </div>
+    </section>
+    <!--Fin seccion sobre mi-->
+
+    <!--Inicio seccion servicios-->
+    <section class="services" id="services">
+      <h2 class="heading">Nuestros <span>Servicios</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Desarrollo Web</h3>
+          <p>
+            Desarrollamos tus diseños web con alta calidad, damos forma a tu
+            idea o emprendimiento en la web.
+          </p>
+          <a href="#" class="btn">Leer mas</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Diseño Grafico</h3>
+          <p>
+            Realizamos tus diseños graficos, desde la creacion de un logo hasta
+            lo mas complejo para ti. Damos forma tus ideas.
+          </p>
+          <a href="#" class="btn">Leer mas</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Marketing Digital</h3>
+          <p>
+            Realizamos Marketing Digital, SEO, SEM. Hacemo que tus web este bien
+            posicionada en el motor de busqueda de google.
+          </p>
+          <a href="#" class="btn">Leer mas</a>
         </div>
       </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img
-          class="masthead-avatar mb-5 b-rounded"
-          src="assets/img/portfolio/cvAndy.jpg"
-          alt="Andy Rosado"
-          style="border-radius: 150px"
-        />
-        <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Andy Rosado</h1>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+    </section>
+    <!--Fin seccion servicios-->
+
+    <!--Inicio seccion portafolios-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Ultimos <span>Proyectos</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="image/WebApiPoketApi.png" alt="Portafolio1" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+              Proyecto Web usando HTML5, CSS3 Y JS
+              Conectando con una API POKETAPI y totalmente
+              Responsive
+            </p>
+            <a href="https://andyrs.github.io/ProyectoPokedexAPI/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
         </div>
-        <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">
-          Desarrollador Web - Front-end - Back-end
+
+        <div class="portfolio-box">
+          <img src="image/LadingPage.png" alt="Portafolio2" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+              Una landing Page Utilizando HTML5, CSS3 Y JS
+              Totalmente Responsive
+            </p>
+            <a href="https://andyrs.github.io/landingPage/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/proyectoTrading.png" alt="Portafolio3" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+              Web desarrollada con HTML5, CSS3 Y JS,
+              Totalmente Responsive
+            </p>
+            <a href="https://andyrs.github.io/Andytrading/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/proyectoTienda.png" alt="Portafolio4" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+              Proyecto Realizado con HTML5, CSS3 Y JAVASCRIPT
+            </p>
+            <a href="https://andyrs.github.io/ProyectoTienda/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/proyecto8.png" alt="Portafolio5" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+             Pagina co
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/Proyecto6.png" alt="Portafolio6" />
+          <div class="portfolio-layer">
+            <h4>Desarrollo Web</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              placeat?
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fin seccion portafolios-->
+
+    <!--Inicio seccion contacto-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contactar a <span>Andy Rosado</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nombre Completo" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Telefono Movil" />
+          <input type="text" placeholder="Asunto del Mensaje" />
+        </div>
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Escribe tu mensaje"
+        ></textarea>
+        <input type="submit" value="Enviar Mensaje" class="btn" />
+      </form>
+    </section>
+    <!--Fin seccion contacto-->
+
+    <!--Inicio footer-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2023 by Andy Rosado Web | Todos los derechos
+          reservados.
         </p>
       </div>
-    </header>
-    <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
-      <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
-          Portfolio
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Portfolio Grid Items-->
-        <div class="row">
-          <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal1"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Proyecto_JS.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 2-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal2"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Proyeto2.png"
-                alt="Proyecto2"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal3"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Proy_3.png"
-                alt="P-Elizabeth"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 4-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal4"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/P_bandera.png"
-                alt="Bandera"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 5-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal5"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/P_uni.png"
-                alt="Universidad"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 6-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal6"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Primer-p.png"
-                alt="P"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 7-->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal7"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Proyecto_empanada.png"
-                alt="ProyectoEmpanada"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 8 -->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal8"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Proy_Iglesia.png"
-                alt="Proyecto_Empanadana"
-              />
-            </div>
-          </div>
-          <!-- Portfolio Item 9 -->
-          <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal9"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/Pro_trabajoUnivers.png"
-                alt="Proyecto_Empanadana"
-              />
-            </div>
-          </div>
 
-           <!-- Portfolio Item 10 -->
-           <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal10"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/JGdelcaribe.png"
-                alt="Proyecto_JG DEL CARIBE"
-              />
-            </div>
-          </div>
-
-          
-           <!-- Portfolio Item 11 -->
-           <div class="col-md-6 col-lg-4 mb-5">
-            <div
-              class="portfolio-item mx-auto"
-              data-toggle="modal"
-              data-target="#portfolioModal11"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/portfolio/andytrading.JPG"
-                alt="Proyecto Andy Trading"
-              />
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Sobre mí
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">
-              Hola soy Andy Rosado, estudiante de Ingeniería de Sistemas
-              Computacionales. Me encanta la programacíon web, usando las
-              tecnologías HTML5, CSS3, JAVASCRIPT + librerias como Jquery /
-              Jquery UI. <br />
-            </p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">
-              Actualmente, me sigo preparando a un nivel mayor para poder
-              brindar mejores servicios en el futuro. Es importante para mi
-              poder pertenecer a una empresa de desarrollo que me brinde la
-              oportunidad de poder comenzar a desarrollar mis conocimientos en
-              desarrollo web. <br />
-            </p>
-          </div>
-
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">
-              En mi curriculum vitae presento una parte de los cursos
-              realizados, ya que la capacitacion personal es basntante
-              importante. Soy disciplinado, honesto, trabajador, me gusta el
-              emprendimiento y aprender.
-            </p>
-          </div>
-        </div>
-        <!-- About Section Button-->
-        <div class="text-center mt-4"></div>
-      </div>
-    </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
-      <div class="container">
-
-        <!-- Contact Section Heading-->
-        <h2
-          class="page-section-heading text-center text-uppercase text-secondary mb-0"
-        >
-          Contactarme
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- Contact Section Form-->
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="control-group">
-                <div
-                  class="form-group floating-label-form-group controls mb-0 pb-2"
-                >
-                  <label>Nombres</label>
-                  <input
-                    class="form-control"
-                    id="name"
-                    type="text"
-                    placeholder="Nombres"
-                    required="required"
-                    data-validation-required-message="Please enter your name."
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div
-                  class="form-group floating-label-form-group controls mb-0 pb-2"
-                >
-                  <label>Email</label>
-                  <input
-                    class="form-control"
-                    id="email"
-                    type="email"
-                    placeholder="Email"
-                    required="required"
-                    data-validation-required-message="Please enter your email address."
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div
-                  class="form-group floating-label-form-group controls mb-0 pb-2"
-                >
-                  <label>Número de teléfono</label>
-                  <input
-                    class="form-control"
-                    id="phone"
-                    type="tel"
-                    placeholder="Número de Teléfono"
-                    required="required"
-                    data-validation-required-message="Please enter your phone number."
-                  />
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div
-                  class="form-group floating-label-form-group controls mb-0 pb-2"
-                >
-                  <label>Mensaje</label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    rows="5"
-                    placeholder="Mensaje"
-                    required="required"
-                    data-validation-required-message="Please enter a message."
-                  ></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br />
-              <div id="success"></div>
-              <div class="form-group">
-                <button
-                  class="btn btn-primary btn-xl"
-                  id="sendMessageButton"
-                  type="submit"
-                >
-                  Enviar
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Ubicación</h4>
-            <p class="lead mb-0">
-              C/ Telésforo correa #29. Avenida los Beisbolistas.
-              <br />
-              Santo Domingo oeste, República Dominicana. PO 10903
-            </p>
-          </div>
-          <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-facebook-f"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-linkedin-in"></i
-            ></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!"
-              ><i class="fab fa-fw fa-dribbble"></i
-            ></a>
-          </div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">Andy Rosado</h4>
-            <p class="lead mb-0">
-              Estudiante de Ingenieria de Sistemas Computacionales, con basta
-              experiencia en el desarrollo Web.
-            </p>
-          </div>
-        </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright © Andy Rosado | Desarrollador Web | Front-end</small>
-      </div>
-    </div>
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <div class="scroll-to-top d-lg-none position-fixed">
-      <a
-        class="js-scroll-trigger d-block text-center text-white rounded"
-        href="#page-top"
-        ><i class="fa fa-chevron-up"></i
-      ></a>
-    </div>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio Modal 1-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal1"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal1Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal1Label"
-                  >
-                    Proyecto JS
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Proyecto_JS.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Esta es una WEBsite estática, que contiene HTML5 & CSS3 con
-                    Javascript y completando con Jquery/Jquery Ui <br />
-
-                    <a
-                      href="http://andyrosado.atwebpages.com/index.html"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal2"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal2Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal2Label"
-                  >
-                    Proyecto #2
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Proyeto2.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Esta es una Website Con HTML5 & CSS3. <br />
-
-                    <a
-                      href="http://andyrosadoproyects.atwebpages.com/index.html"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal3Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal3Label"
-                  >
-                    Proyecto Elizabeth
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Proy_3.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Este es un proyecto para una decoradora de interiores, le
-                    faltan algunas cositas pero esta creado en HTML5 & CSS3.
-                    <br />
-
-                    <a
-                      href="https://andyrs.github.io/proy_eli/"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 4-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal4"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal4Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal4Label"
-                  >
-                    Proyecto Bandera Nacional
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/P_bandera.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Este es un pequeño proyecyo, en donde se observa una website
-                    de la bandera nacional dominicana, que tiene un menu
-                    sencillo y algunas funciones de Javascript al hacer click.
-                    <br />
-
-                    <strong
-                      >La web esta creada con HTML5 & CSS3 + JavaScript &
-                      PHP</strong
-                    >
-                    <br />
-
-                    <a
-                      href="http://andyproyectsbandera.rf.gd/index.php?i=1"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 5-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal5"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal5Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal5Label"
-                  >
-                    Proyecto Universidad
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/P_uni.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Este es un proyecto de maquetacion web, donde utitilizo
-                    HTML5 & CSS3 + Boostrap 4. <br />
-
-                    <a
-                      href="https://andyutesa.000webhostapp.com/index.html"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 6-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal6"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal6Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal6Label"
-                  >
-                    Mi primer proyecto Web
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Primer-p.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Este fue mi primer proyecto Web, utilizando una plantilla de
-                    google y modificando algunas cosas con ayuda de un compañero
-                    que nos iniciabamos en el mundo del desarrollo. <br />
-                    <strong>
-                      utilizando XHTML 3.0 & css 2.0 + algunos pluggin de
-                      google</strong
-                    >
-                    <br />
-                    <a
-                      href="https://jesusdenazaretvieneya.blogspot.com/"
-                      class="btn btn-primary mt-3 t"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 7-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal7"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal1Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal1Label"
-                  >
-                    Proyecto D'Armando Empanadas
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Proyecto_empanada.png"
-                    alt=""
-                  />
-
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Esta es una web-site dedicada a negocios, creada con HTML5,
-                    CSS3, JAVASCRIPT, JQUERY/UI Adaptativa para todos los
-                    dispositivos <br />
-
-                    <a
-                      href="https://andyrs.github.io/proyectonegocios/"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 8-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal8"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal1Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal1Label"
-                  >
-                    Proyecto Iglesia Luz y Vida XX
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Proy_Iglesia.png"
-                    alt=""
-                  />
-
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Este es un proyecto de un sitio web para Iglesia, una web
-                    sencilla para publicar contenidos, informaciones y enviar a
-                    otras plataformas para trasmiciones online. Creada con
-                    HTML5, CSS3, JAVASCRIPT.
-                    <strong>Es una web Estatica por el momento.</strong><br />
-
-                    <a
-                      href="https://andyrs.github.io/proy_church/"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 9-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal9"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal1Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal1Label"
-                  >
-                    Proyecto Portafolio Sencillo
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/Pro_trabajoUnivers.png"
-                    alt=""
-                  />
-
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Esta web es orientada a un porfafolio de trabajo
-                    Universitario, con el objetivo de mostrar todos los trabajos
-                    que se habian realizado en ese Semestre/Cuatrimestre. La
-                    misma esta creada con HTML5, CSS3, JAVASCRIPT, JQuery. Es
-                    responsiva para todas las pantallas de escritorio y tablets,
-                    en codigo puro.<br />
-
-                    <a
-                      href="https://elizabethpm.github.io/portfolio/"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   
-    <!-- Portfolio Modal 10-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal10"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal2Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal2Label"
-                  >
-                    Proyecto #10 JG DEL CARIBE
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/JGdelcaribe.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                   Esta es una web Woocomerce, realizada por peticion del cliente con el CMS de Wordpress. Es toltamente respoisva o adaptativa, una web
-                   orientada a ventas. <br />
-
-                    <a
-                      href="https://jgdelcaribe.com/"
-                      class="btn btn-primary mt-3"
-                      target="_blank"
-                      >Ver página</a
-                    >
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Cerrar ventana
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-     <!-- Portfolio Modal 11-->
-     <div
-     class="portfolio-modal modal fade"
-     id="portfolioModal11"
-     tabindex="-1"
-     role="dialog"
-     aria-labelledby="portfolioModal2Label"
-     aria-hidden="true"
-   >
-     <div class="modal-dialog modal-xl" role="document">
-       <div class="modal-content">
-         <button
-           class="close"
-           type="button"
-           data-dismiss="modal"
-           aria-label="Close"
-         >
-           <span aria-hidden="true"><i class="fas fa-times"></i></span>
-         </button>
-         <div class="modal-body text-center">
-           <div class="container">
-             <div class="row justify-content-center">
-               <div class="col-lg-8">
-                 <!-- Portfolio Modal - Title-->
-                 <h2
-                   class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                   id="portfolioModal2Label"
-                 >
-                   Projecto Andy Trading
-                 </h2>
-                 <!-- Icon Divider-->
-                 <div class="divider-custom">
-                   <div class="divider-custom-line"></div>
-                   <div class="divider-custom-icon">
-                     <i class="fas fa-star"></i>
-                   </div>
-                   <div class="divider-custom-line"></div>
-                 </div>
-                 <!-- Portfolio Modal - Image-->
-                 <img
-                   class="img-fluid rounded mb-5"
-                   src="assets/img/portfolio/andytrading.JPG"
-                   alt=""
-                 />
-                 <!-- Portfolio Modal - Text-->
-                 <p class="mb-5">
-                  Este es un projecto personal creado con HTML5 + CSS3 + JAVASCRIPT + JQUERY y es totalmente responsiva o adaptativa
-                  para todos los dispositivos.
-                  <br/>
-                   <a
-                     href="https://andytrading.net/"
-                     class="btn btn-primary mt-3"
-                     target="_blank"
-                     >Ver página</a
-                   >
-                  
-                 </p>
-                 <button class="btn btn-primary" data-dismiss="modal">
-                   <i class="fas fa-times fa-fw"></i>
-                   Cerrar ventana
-                 </button>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <!--Fin footer-->
   </body>
 </html>
